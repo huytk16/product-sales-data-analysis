@@ -29,7 +29,6 @@ var per =
 var symbol = 
 
     switch(
-
         true(),
 
         lastest-previous>0, UNICHAR(9650),
