@@ -36,7 +36,7 @@ return
 
 symbol & " " & format(per, "#0.00%")
 
-*Similar to MoM Profit, MoM Profit Margin, MoM Units Sold*
+* *Similar to MoM Profit, MoM Profit Margin, MoM Units Sold*
 
 ## Tooltip
 
@@ -47,9 +47,7 @@ Revenue % by Country =
 DIVIDE(
 
     [Total Revenue],
-
     CALCULATE([Total Revenue], ALL('financials'[Country]))
-
 )
 
 ### Clustered bar chart
@@ -59,9 +57,7 @@ Revenue % by Segment =
 DIVIDE(
 
     [Total Revenue],
-
     CALCULATE([Total Revenue], ALL('financials'[Segment]))
-
 )
 
-*Similar to profit, units sold*
+* *Similar to profit, units sold*
